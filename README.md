@@ -17,6 +17,7 @@ O sistema é projetado pensado no uso por 2 tipos de usuários com as seguintes 
 # -Tecnologias Utilizadas-
 - Linguagem:
   Java 25
+- Implementação do CRUD (Create - Read - Update - Delete)
 
 # -Justificativa MVC-
 O padrão MVC não é necessário neste projeto porque se trata de uma aplicação de console com fluxo simples e único ponto de interação.
