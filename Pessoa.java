@@ -1,9 +1,11 @@
 import java.util.ArrayList;
+
 public abstract class Pessoa {
+
     protected String nome;
     protected double idade;
     protected String cpf;
-    protected ArrayList <Double> numero;
+    protected String numero;
 
     public Pessoa(){ //Construtor vazio
     }
@@ -36,10 +38,10 @@ public abstract class Pessoa {
         this.cpf=cpf;
     }
 
-    public Double getNumero(int n){
-        return numero.get(n);
+    public String getNumero(){
+        return numero;
     }
-    public void setNumero(double numero){
-        this.numero.add(numero);
+    public void setNumero(String numero){
+        this.numero=numero;
     }
 }
