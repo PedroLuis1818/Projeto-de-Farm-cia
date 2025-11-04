@@ -6,11 +6,11 @@ Este projeto se trata de uma simulação de uma farmácia virtual desenvolvido e
 # -Funcionalidades Principais-
 O sistema é projetado pensado no uso por 2 tipos de usuários com as seguintes funcionalidades:
 - Cliente:
-  Comprar medicamentos (Diretamente ou utilizando o carrinho de compras)
+  Comprar medicamentos (Diretamente ou utilizando o carrinho de compras)/n
   Criar cartão fideliade (Cartão pago associado à conta do cliente que lhe beneficia certas promoções)
   
 - Funcionário:
-  Manutenção de estoque
+  Manutenção de estoque/n
   Controle direto de produtos (Adicionar, excluir e editar produtos na listagem)
 
 # -Tecnologias Utilizadas-
