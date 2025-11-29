@@ -13,6 +13,7 @@ abstract class Filtracao {
     }
 
     public String FiltragemString(Scanner input){
+
         return input.nextLine().toUpperCase().trim();
     }
 }

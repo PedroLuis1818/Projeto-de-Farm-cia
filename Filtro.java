@@ -27,5 +27,4 @@ public class Filtro extends Filtracao {
        }
         return input.nextInt();
     }
-
 }
