@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class FarmaciaPrincipal {
     public static void main(String[] args) {
 
-        final String CAMINHO = "C:\\Users\\Usuário\\Desktop\\Farmacia 002\\Farmacia\\src\\lista_farmacos";
+        final String CAMINHO = "lista_farmacos";
 
         System.out.println("-----------------------------");
         System.out.println(" FARMÁCIA VIRTUAL ");
