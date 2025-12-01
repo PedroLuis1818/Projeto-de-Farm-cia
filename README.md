@@ -15,6 +15,27 @@ O sistema é projetado pensado no uso por 2 tipos de usuários com as seguintes 
   
   Controle direto de produtos (Adicionar, excluir e editar produtos na listagem)
 
+# -Modelo de Banco de Dados-
+Entidades
+- Pessoa:
+  Armazena dados básicos de identificação (CPF, nome, idade, número).
+
+- Cliente:
+  Representa um usuário cadastrado, ligado a Pessoa (1:1).
+
+- Fármaco:
+  Contém informações dos produtos disponíveis, como nome, marca, concentração, estoque e preço.
+
+- Carrinho:
+  Registra os itens selecionados pelos clientes, relacionando Cliente e Fármaco (tabela de associação).
+
+Relacionamentos
+- Pessoa → Cliente: relação 1:1.
+
+- Cliente → Carrinho: um cliente pode ter vários itens (1:N).
+
+- Fármaco → Carrinho: um fármaco pode aparecer em vários carrinhos (1:N).
+
 # -Tecnologias Utilizadas-
 - Linguagem:
   Java 25
